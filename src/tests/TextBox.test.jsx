@@ -18,6 +18,11 @@ describe('TextBox componente', () => {
         //comprobamos si la <Box> está en nuestro documento
         expect(box).toBeInTheDocument();
     });
+
+    it('el botón se encuentra en el documento', () => {
+        //comprobamos si la <Box> está en nuestro documento
+        expect(button).toBeInTheDocument();
+    });
     
     it('la caja con el texto tiene un color inicial', () => {
   
